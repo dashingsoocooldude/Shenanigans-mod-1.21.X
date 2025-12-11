@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "swords",
+	"version": "${version}",
+	"name": "Swords & Shenanigans",
+	"description": "This is a mod that adds shenanigans",
+	"authors": [
+		"Da5h1n"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/swords/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"swords.shenanigans.sword.SwordsShenanigans"
+		],
+		"fabric-datagen": [
+			"swords.shenanigans.sword.SwordsShenanigansDataGenerator"
+		],
+        "client": [
+          "swords.shenanigans.sword.SwordsShenanigansClient"
+        ]
+	},
+	"mixins": [
+		"swords.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
