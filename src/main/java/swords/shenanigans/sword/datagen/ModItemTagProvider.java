@@ -27,16 +27,12 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.PINK_GARNET_SWORD);
-
         getOrCreateTagBuilder(ItemTags.PICKAXES)
                 .add(ModItems.PINK_GARNET_PICKAXE);
-
         getOrCreateTagBuilder(ItemTags.AXES)
                 .add(ModItems.PINK_GARNET_AXE);
-
         getOrCreateTagBuilder(ItemTags.SHOVELS)
                 .add(ModItems.PINK_GARNET_SHOVEL);
-
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.PINK_GARNET_HOE);
 
@@ -45,5 +41,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.PINK_GARNET_CHESTPLATE)
                 .add(ModItems.PINK_GARNET_LEGGINGS)
                 .add(ModItems.PINK_GARNET_BOOTS);
+
+        getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.WEAPON_INGOT);
+
+        getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.DASH_SMITHING_TEMPLATE);
     }
 }

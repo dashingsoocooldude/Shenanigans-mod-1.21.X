@@ -29,7 +29,7 @@
   "item.swords.pink_garnet_leggings": "Leggings-Test",
   "item.swords.pink_garnet_boots": "Boots-Test",
 
-  "item.swords.pink_garnet_horse_armor": "Armour-Test",
+  "item.swords.pink_garnet_horse_armor": "Horse Armour-Test",
 
   "block.swords.pink_garnet_block": "Block of Pink Garnet",
   "block.swords.raw_pink_garnet_block": "Block of Raw Pink Garnet",
@@ -52,5 +52,9 @@
   "block.swords.pink_garnet_door": "Pink Garnet Door",
   "block.swords.pink_garnet_trapdoor": "Pink Garnet Trapdoor",
 
-  "block.swords.pink_garnet_lamp": "Pink Garnet Lamp"
+  "block.swords.pink_garnet_lamp": "Pink Garnet Lamp",
+
+  "item.swords.dash_armor_trim_smithing_template": "Dash Smithing Template-Test",
+  "trim_material.swords.weapon_ingot": "Weapon Ingot Material-Test",
+  "trim_pattern.swords.dash": "Dash Armor Pattern-Test"
 }
