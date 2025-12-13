@@ -49,7 +49,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.WEAPON_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_WEAPON_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.CAULIFLOWER, Models.GENERATED);
-        itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
+        //itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.STARLIGHT_ASHES, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.PINK_GARNET_SWORD, Models.HANDHELD);
