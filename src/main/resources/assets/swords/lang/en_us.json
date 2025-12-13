@@ -1,15 +1,54 @@
 {
+  "itemgroup.swords.items": "Swords & Shenanigans Items",
+  "itemgroup.swords.blocks": "Swords & Shenanigans Blocks",
 
-  "item.swords.pink_garnet": "Weapon Ingot",
-  "item.swords.raw_pink_garnet": "Raw Pink Garnet",
+  "tooltip.swords.shift_up": "Press §eShift§r for more Information!",
+
+  "tooltip.swords.chisel.tooltip": "This item Chisels Blocks into Bricks!",
+  "tooltip.swords.magic_block.tooltip": "This block is very, very §9MAGICAL§r",
+  "tooltip.swords.cauliflower.tooltip": "Another way to do a tooltip!",
+
+
+  "item.swords.weapon_ingot": "Weapon Ingot",
+  "item.swords.raw_weapon_ingot": "Raw Weapon Ingot",
+  "item.swords.chisel" : "Chisel",
+  "item.swords.cauliflower": "Cauliflower",
+
+  "item.swords.starlight_ashes": "Starlight Ashes",
+
   "item.swords.pink_garnet_sword": "Sword-Test",
+  "item.swords.pink_garnet_pickaxe": "Pickaxe-Test",
+  "item.swords.pink_garnet_axe": "Axe-Test",
+  "item.swords.pink_garnet_shovel": "Shovel-Test",
+  "item.swords.pink_garnet_hoe": "Hoe-Test",
 
-  "block.swords.pink_garnet_block": "Pink Garnet Block",
-  "block.swords.raw_pink_garnet_block": "Raw Pink Garnet Block",
+  "item.swords.pink_garnet_hammer": "Hammer-Test",
 
+  "item.swords.pink_garnet_helmet": "Helmet-Test",
+  "item.swords.pink_garnet_chestplate": "Chestplate-Test",
+  "item.swords.pink_garnet_leggings": "Leggings-Test",
+  "item.swords.pink_garnet_boots": "Boots-Test",
 
+  "block.swords.pink_garnet_block": "Block of Pink Garnet",
+  "block.swords.raw_pink_garnet_block": "Block of Raw Pink Garnet",
 
+  "block.swords.pink_garnet_ore": "Pink Garnet Ore",
+  "block.swords.pink_garnet_deepslate_ore": "Deepslate Pink Garnet Ore",
 
-  "itemgroup.swords.items": "Swords & Shenanigans",
-  "itemgroup.swords.blocks": "Blocks"
+  "block.swords.magic_block": "Magic Block",
+
+  "block.swords.pink_garnet_stairs": "Pink Garnet Stairs",
+  "block.swords.pink_garnet_slabs": "Pink Garnet Slab",
+
+  "block.swords.pink_garnet_button": "Pink Garnet Button",
+  "block.swords.pink_garnet_pressure_plate": "Pink Garnet Pressure Plate",
+
+  "block.swords.pink_garnet_fence": "Pink Garnet Fence",
+  "block.swords.pink_garnet_fence_gate": "Pink Garnet Fence Gate",
+  "block.swords.pink_garnet_wall": "Pink Garnet Wall",
+
+  "block.swords.pink_garnet_door": "Pink Garnet Door",
+  "block.swords.pink_garnet_trapdoor": "Pink Garnet Trapdoor",
+
+  "block.swords.pink_garnet_lamp": "Pink Garnet Lamp"
 }
