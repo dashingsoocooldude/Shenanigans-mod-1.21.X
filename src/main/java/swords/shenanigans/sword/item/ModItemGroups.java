@@ -13,10 +13,12 @@ import swords.shenanigans.sword.block.ModBlocks;
 public class ModItemGroups {
     public static final ItemGroup ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(SwordsShenanigans.MOD_ID, "items"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.WEAPON_INGOT))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PINK_GARNET))
                     .displayName(Text.translatable("itemgroup.swords.items"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModItems.WEAPON_INGOT);
+                        entries.add(ModItems.PINK_GARNET);
+                        entries.add(ModItems.RAW_PINK_GARNET);
+                        entries.add(ModItems.PINK_GARNET_SWORD);
                     }).build());
 
     public static final ItemGroup BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -24,7 +26,10 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.PINK_GARNET_BLOCK))
                     .displayName(Text.translatable("itemgroup.swords.blocks"))
                     .entries((displayContext, entries) -> {
-
+                        entries.add(ModBlocks.PINK_GARNET_BLOCK);
+                        entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
+                        entries.add(ModBlocks.PINK_GARNET_ORE);
+                        entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
                     }).build());
 
     public static void registerItemGroups() {

@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.util.Identifier;
+import swords.shenanigans.sword.block.ModBlocks;
 import swords.shenanigans.sword.item.ModItems;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -14,11 +15,14 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-//        BlockStateModelGenerator.BlockTexturePool PinkGarnetPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PINK_GARNET_BLOCK);
-//        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_PINK_GARNET_BLOCK);
-//        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_ORE);
-//        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
-//
+
+        BlockStateModelGenerator.BlockTexturePool PinkGarnetPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PINK_GARNET_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_PINK_GARNET_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
+
+
+
 //        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAGIC_BLOCK);
 //
 //        PinkGarnetPool.stairs(ModBlocks.PINK_GARNET_STAIRS);
@@ -64,7 +68,10 @@ public class ModModelProvider extends FabricModelProvider {
 //        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PINK_GARNET_LEGGINGS));
 //        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PINK_GARNET_BOOTS));
 
-        itemModelGenerator.register(ModItems.WEAPON_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PINK_GARNET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_PINK_GARNET, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.PINK_GARNET_SWORD, Models.HANDHELD);
 
     }
 }

@@ -1,11 +1,15 @@
 {
 
-  "item.swords.weapon_ingot": "Weapon Ingot",
+  "item.swords.pink_garnet": "Weapon Ingot",
+  "item.swords.raw_pink_garnet": "Raw Pink Garnet",
+  "item.swords.pink_garnet_sword": "Sword-Test",
+
+  "block.swords.pink_garnet_block": "Pink Garnet Block",
+  "block.swords.raw_pink_garnet_block": "Raw Pink Garnet Block",
 
 
 
 
-
-  "itemgroup.swords.items": "Items",
+  "itemgroup.swords.items": "Swords & Shenanigans",
   "itemgroup.swords.blocks": "Blocks"
 }

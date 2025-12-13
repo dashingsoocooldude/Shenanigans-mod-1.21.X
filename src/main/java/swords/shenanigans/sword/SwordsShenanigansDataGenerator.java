@@ -1,8 +1,8 @@
 package swords.shenanigans.sword;
 
+import swords.shenanigans.sword.datagen.*;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import swords.shenanigans.sword.datagen.*;
 
 public class SwordsShenanigansDataGenerator implements DataGeneratorEntrypoint {
 	@Override
