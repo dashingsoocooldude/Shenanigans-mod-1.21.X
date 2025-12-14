@@ -61,5 +61,11 @@
   "trim_pattern.swords.dash": "Dash Armor Pattern-Test",
 
   "item.swords.bar_brawl_music_disc": "Bar Brawl Music Disc",
-  "item.swords.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)"
+  "item.swords.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+  "effect.swords.slimey": "Slimey",
+  "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
+  "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
+  "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
+  "item.minecraft.tipped_arrow.effect.slimey_potion": "Arrow of Slimey"
 }
