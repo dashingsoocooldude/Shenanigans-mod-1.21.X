@@ -78,6 +78,9 @@ public class ModItems {
     public static final Item DASH_SMITHING_TEMPLATE = registerItem("dash_armor_trim_smithing_template",
             SmithingTemplateItem.of(Identifier.of(SwordsShenanigans.MOD_ID, "dash"), FeatureFlags.VANILLA));
 
+    public static final Item PINK_GARNET_BOW = registerItem("pink_garnet_bow",
+            new BowItem(new Item.Settings().maxDamage(500)));
+
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(SwordsShenanigans.MOD_ID, name), item);
     }
