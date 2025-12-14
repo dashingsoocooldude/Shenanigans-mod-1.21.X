@@ -58,5 +58,8 @@
 
   "item.swords.dash_armor_trim_smithing_template": "Dash Smithing Template-Test",
   "trim_material.swords.weapon_ingot": "Weapon Ingot Material-Test",
-  "trim_pattern.swords.dash": "Dash Armor Pattern-Test"
+  "trim_pattern.swords.dash": "Dash Armor Pattern-Test",
+
+  "item.swords.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.swords.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)"
 }

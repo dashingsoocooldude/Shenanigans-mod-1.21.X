@@ -10,6 +10,7 @@ import swords.shenanigans.sword.block.ModBlocks;
 import swords.shenanigans.sword.component.ModDataComponentTypes;
 import swords.shenanigans.sword.item.ModItemGroups;
 import swords.shenanigans.sword.item.ModItems;
+import swords.shenanigans.sword.sound.ModSounds;
 import swords.shenanigans.sword.util.HammerUsageEvent;
 
 public class SwordsShenanigans implements ModInitializer {
@@ -24,6 +25,7 @@ public class SwordsShenanigans implements ModInitializer {
         ModBlocks.registerModBlocks();
 
         ModDataComponentTypes.registerDataComponentTypes();
+        ModSounds.registerSounds();
 
         FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
 

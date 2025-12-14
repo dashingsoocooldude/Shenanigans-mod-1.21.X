@@ -40,6 +40,8 @@ public class ModItemGroups {
                         entries.add(ModItems.DASH_SMITHING_TEMPLATE);
 
                         entries.add(ModItems.PINK_GARNET_BOW);
+
+                        entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
                     }).build());
 
     public static final ItemGroup BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

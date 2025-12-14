@@ -1,0 +1,46 @@
+{
+  "chisel_use": {
+    "subtitle": "sounds.sword.chisel_use",
+    "sounds": [
+      "swords:chisel_use"
+    ]
+  },
+  "magic_block_break": {
+    "subtitle": "sounds.sword.magic_block_break",
+    "sounds": [
+      "swords:magic_block_break"
+    ]
+  },
+  "magic_block_step": {
+    "subtitle": "sounds.sword.magic_block_step",
+    "sounds": [
+      "swords:magic_block_step"
+    ]
+  },
+  "magic_block_place": {
+    "subtitle": "sounds.sword.magic_block_place",
+    "sounds": [
+      "swords:magic_block_place"
+    ]
+  },
+  "magic_block_hit": {
+    "subtitle": "sounds.sword.magic_block_hit",
+    "sounds": [
+      "swords:magic_block_hit"
+    ]
+  },
+  "magic_block_fall": {
+    "subtitle": "sounds.sword.magic_block_fall",
+    "sounds": [
+      "swords:magic_block_fall"
+    ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "swords:bar_brawl",
+        "stream": true
+      }
+    ]
+  }
+}

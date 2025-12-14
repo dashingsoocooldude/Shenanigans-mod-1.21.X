@@ -11,6 +11,7 @@ import swords.shenanigans.sword.SwordsShenanigans;
 import swords.shenanigans.sword.item.custom.ChiselItem;
 import swords.shenanigans.sword.item.custom.HammerItem;
 import swords.shenanigans.sword.item.custom.ModArmorItem;
+import swords.shenanigans.sword.sound.ModSounds;
 
 import java.util.List;
 
@@ -80,6 +81,9 @@ public class ModItems {
 
     public static final Item PINK_GARNET_BOW = registerItem("pink_garnet_bow",
             new BowItem(new Item.Settings().maxDamage(500)));
+
+    public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.BAR_BRAWL_KEY).maxCount(1)));
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(SwordsShenanigans.MOD_ID, name), item);
