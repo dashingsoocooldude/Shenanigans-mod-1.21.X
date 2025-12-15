@@ -67,5 +67,12 @@
   "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
   "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
   "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
-  "item.minecraft.tipped_arrow.effect.slimey_potion": "Arrow of Slimey"
+  "item.minecraft.tipped_arrow.effect.slimey_potion": "Arrow of Slimey",
+
+  "painting.swords.world.title": "World",
+  "painting.swords.world.author": "NanoAttack",
+  "painting.swords.shrimp.title": "Shrimp",
+  "painting.swords.shrimp.author": "NanoAttack",
+  "painting.swords.saw_them.title": "Saw Them",
+  "painting.swords.saw_them.author": "NanoAttack"
 }
