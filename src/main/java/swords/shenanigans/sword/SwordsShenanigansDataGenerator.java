@@ -5,6 +5,7 @@ import net.minecraft.registry.RegistryKeys;
 import swords.shenanigans.sword.datagen.*;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import swords.shenanigans.sword.enchantment.ModEnchantments;
 import swords.shenanigans.sword.trim.ModTrimMaterials;
 import swords.shenanigans.sword.trim.ModTrimPatterns;
 
@@ -25,5 +26,6 @@ public class SwordsShenanigansDataGenerator implements DataGeneratorEntrypoint {
     public void buildRegistry(RegistryBuilder registryBuilder) {
         registryBuilder.addRegistry(RegistryKeys.TRIM_MATERIAL, ModTrimMaterials::bootstrap);
         registryBuilder.addRegistry(RegistryKeys.TRIM_PATTERN, ModTrimPatterns::bootstrap);
+        registryBuilder.addRegistry(RegistryKeys.ENCHANTMENT, ModEnchantments::bootstrap);
     }
 }

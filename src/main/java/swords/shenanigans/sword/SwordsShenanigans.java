@@ -14,6 +14,7 @@ import org.slf4j.LoggerFactory;
 import swords.shenanigans.sword.block.ModBlocks;
 import swords.shenanigans.sword.component.ModDataComponentTypes;
 import swords.shenanigans.sword.effect.ModEffects;
+import swords.shenanigans.sword.enchantment.ModEnchantmentEffects;
 import swords.shenanigans.sword.item.ModItemGroups;
 import swords.shenanigans.sword.item.ModItems;
 import swords.shenanigans.sword.potion.ModPotions;
@@ -37,7 +38,10 @@ public class SwordsShenanigans implements ModInitializer {
         ModEffects.registerEffects();
         ModPotions.registerPotions();
 
+        ModEnchantmentEffects.registerEnchantmentEffects();
+
         FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
+
 
         PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
 
