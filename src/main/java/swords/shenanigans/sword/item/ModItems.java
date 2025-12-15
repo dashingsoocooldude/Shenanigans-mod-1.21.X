@@ -8,6 +8,7 @@ import net.minecraft.resource.featuretoggle.FeatureFlags;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import swords.shenanigans.sword.SwordsShenanigans;
+import swords.shenanigans.sword.block.ModBlocks;
 import swords.shenanigans.sword.item.custom.ChiselItem;
 import swords.shenanigans.sword.item.custom.HammerItem;
 import swords.shenanigans.sword.item.custom.ModArmorItem;
@@ -84,6 +85,9 @@ public class ModItems {
 
     public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.BAR_BRAWL_KEY).maxCount(1)));
+
+    public static final Item CAULIFLOWER_SEEDS = registerItem("cauliflower_seeds",
+            new AliasedBlockItem(ModBlocks.CAULIFLOWER_CROP, new Item.Settings()));
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(SwordsShenanigans.MOD_ID, name), item);

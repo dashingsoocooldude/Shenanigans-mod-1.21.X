@@ -12,7 +12,10 @@
   "item.swords.weapon_ingot": "Weapon Ingot",
   "item.swords.raw_weapon_ingot": "Raw Weapon Ingot",
   "item.swords.chisel" : "Chisel",
+
   "item.swords.cauliflower": "Cauliflower",
+  "item.swords.cauliflower_seeds": "Cauliflower Seeds",
+  "item.swords.cauliflower_crop": "Cauliflower Crop",
 
   "item.swords.starlight_ashes": "Starlight Ashes",
 
@@ -42,7 +45,7 @@
   "block.swords.magic_block": "Magic Block",
 
   "block.swords.pink_garnet_stairs": "Pink Garnet Stairs",
-  "block.swords.pink_garnet_slabs": "Pink Garnet Slab",
+  "block.swords.pink_garnet_slab": "Pink Garnet Slab",
 
   "block.swords.pink_garnet_button": "Pink Garnet Button",
   "block.swords.pink_garnet_pressure_plate": "Pink Garnet Pressure Plate",

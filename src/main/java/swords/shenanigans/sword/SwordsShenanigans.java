@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
+import net.fabricmc.fabric.api.registry.CompostingChanceRegistry;
 import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistryBuilder;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.item.Items;
@@ -52,5 +53,8 @@ public class SwordsShenanigans implements ModInitializer {
                     ModPotions.SLIMEY_POTION // Use .value() for RegistryEntry in recipes
             );
         });
+
+        CompostingChanceRegistry.INSTANCE.add(ModItems.CAULIFLOWER, 0.5f);
+        CompostingChanceRegistry.INSTANCE.add(ModItems.CAULIFLOWER_SEEDS, 0.25f);
 	}
 }
