@@ -44,6 +44,7 @@ public class ModItemGroups {
                         entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
 
                         entries.add(ModItems.CAULIFLOWER_SEEDS);
+                        entries.add(ModItems.HONEY_BERRIES);
                     }).build());
 
     public static final ItemGroup BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

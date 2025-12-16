@@ -13,6 +13,7 @@ public class SwordsShenanigansClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINK_GARNET_TRAPDOOR, RenderLayer.getCutout()); //FIXES ALPHA PIXELS (SEE THROUGH)
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CAULIFLOWER_CROP, RenderLayer.getCutout()); //FIXES ALPHA PIXELS (SEE THROUGH)
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.HONEY_BERRY_BUSH, RenderLayer.getCutout()); //FIXES ALPHA PIXELS (SEE THROUGH)
 
         ModModelPredicates.registerModelPredicates();
     }
