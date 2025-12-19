@@ -8,6 +8,8 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import swords.shenanigans.sword.enchantment.ModEnchantments;
 import swords.shenanigans.sword.trim.ModTrimMaterials;
 import swords.shenanigans.sword.trim.ModTrimPatterns;
+import swords.shenanigans.sword.world.ModConfiguredFeatures;
+import swords.shenanigans.sword.world.ModPlacedFeatures;
 
 public class SwordsShenanigansDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -27,5 +29,8 @@ public class SwordsShenanigansDataGenerator implements DataGeneratorEntrypoint {
         registryBuilder.addRegistry(RegistryKeys.TRIM_MATERIAL, ModTrimMaterials::bootstrap);
         registryBuilder.addRegistry(RegistryKeys.TRIM_PATTERN, ModTrimPatterns::bootstrap);
         registryBuilder.addRegistry(RegistryKeys.ENCHANTMENT, ModEnchantments::bootstrap);
+
+        registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+        registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
     }
 }

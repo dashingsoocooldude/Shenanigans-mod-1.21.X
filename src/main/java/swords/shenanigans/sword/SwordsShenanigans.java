@@ -21,6 +21,7 @@ import swords.shenanigans.sword.item.ModItems;
 import swords.shenanigans.sword.potion.ModPotions;
 import swords.shenanigans.sword.sound.ModSounds;
 import swords.shenanigans.sword.util.HammerUsageEvent;
+import swords.shenanigans.sword.world.gen.ModWorldGeneration;
 
 public class SwordsShenanigans implements ModInitializer {
 	public static final String MOD_ID = "swords";
@@ -40,6 +41,8 @@ public class SwordsShenanigans implements ModInitializer {
         ModPotions.registerPotions();
 
         ModEnchantmentEffects.registerEnchantmentEffects();
+
+        ModWorldGeneration.generateModWorldGen();
 
         FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
 
